@@ -1,4 +1,10 @@
 #!/bin/bash
+#: Title : Script
+#: Date : 03 Oct 2014
+#: Author : JD
+#: Version :1.0
+#: Description : CPU count 
+#: Options : 
 
 #this is a comment
 

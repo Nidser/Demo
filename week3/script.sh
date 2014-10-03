@@ -2,7 +2,10 @@
 
 #this is a comment
 
-# to view the cpu info
+# watch for spaces in the text belwo when assigning a variable 
 
-printf "%s\n" "The number of processors being used is: "
-grep processor /proc/cpuinfo | wc -l
+cpucnt=$( grep processor /proc/cpuinfo | wc -l )
+
+#printf can have a parameter at the end %s\n. this then substituted during run time  
+
+printf "The number of CPU's being used is: %s\n" $cpucnt
